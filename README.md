@@ -24,7 +24,7 @@
 
 ## 📌 About the Project
 
-**CareChat** is an educational medical question-answering chatbot developed as a student thesis project.
+**CareChat** is an educational medical question-answering chatbot developed as a student project.
 
 It uses Retrieval-Augmented Generation (RAG) to answer general health questions using information retrieved from trusted public health websites:
 
