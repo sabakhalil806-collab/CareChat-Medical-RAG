@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="PASTE_VIDEO_LINK_HERE">▶️ Watch Demo</a> •
+  <a href="demo/CareChat Video Demo.mp4">▶️ Watch Demo</a> •
   <a href="#-features">Features</a> •
   <a href="#-system-architecture">Architecture</a> •
   <a href="#-installation">Installation</a>
