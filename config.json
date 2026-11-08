@@ -1,0 +1,10 @@
+{
+ "embed_model": "BAAI/bge-small-en-v1.5",
+ "rerank_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+ "threshold": -6.94,
+ "top_k_candidates": 15,
+ "top_k_final": 3,
+ "backend": "local",
+ "llm_model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "disclaimer": "General health information from public health websites, not a diagnosis. Please consult a doctor for medical advice."
+}
