@@ -1,7 +1,7 @@
 # 🩺 CareChat – Medical RAG Chatbot
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-Student%20Thesis-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Project-Student%20-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/AI-RAG-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Framework-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
