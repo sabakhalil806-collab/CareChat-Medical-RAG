@@ -1,7 +1,7 @@
 # 🩺 CareChat – Medical RAG Chatbot
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-Student%20-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Project-Student-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/AI-RAG-purple?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Framework-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="demo/CareChat Video Demo.mp4">▶️ Watch Demo</a> •
+  <a href="demo/CareChat%20Video%20Demo.mp4">▶️ Watch Demo</a> •
   <a href="#-features">Features</a> •
   <a href="#-system-architecture">Architecture</a> •
   <a href="#-installation">Installation</a>
@@ -41,21 +41,27 @@ Unlike a general chatbot, CareChat is designed to generate answers from retrieve
 ## 📸 Application Preview
 
 <p align="center">
-  <img src="screenshots/chat1.png" alt="CareChat Chat Interface" width="85%" />
+  <a href="demo/CareChat%20Video%20Demo.mp4">
+    <img src="screenshots/chat1.png" alt="CareChat Application Preview - Click to Watch Demo" width="85%" />
+  </a>
 </p>
 
 <p align="center">
-  <i>CareChat main chat interface</i>
+  <i>💬 CareChat main chat interface</i>
+  <br />
+  ▶️ Click the screenshot above to watch the complete project demonstration.
 </p>
 
 <details>
   <summary>🖼️ View More Screenshots</summary>
 
   ### 💬 Chat Interface
+
   ![Chat Interface](screenshots/chat2.png)
 
   ### 📚 Answers with Sources
-  ![Source Citations](screenshots/Chat3.png)
+
+  ![Source Citations](screenshots/chat3.png)
 
 </details>
 
@@ -64,12 +70,14 @@ Unlike a general chatbot, CareChat is designed to generate answers from retrieve
 ## 🎬 Project Demo
 
 <p align="center">
-  <a href="PASTE_VIDEO_LINK_HERE">
-    <img src="https://img.shields.io/badge/▶_Watch_Project_Demo-red?style=for-the-badge&logo=youtube&logoColor=white" />
+  <a href="demo/CareChat%20Video%20Demo.mp4">
+    <img src="https://img.shields.io/badge/▶_WATCH_PROJECT_DEMO-Video-blue?style=for-the-badge&logo=github" />
   </a>
 </p>
 
-Replace the demo link with your uploaded project video.
+<p align="center">
+  Click the button above or the application screenshot to watch the CareChat demonstration video hosted directly in this GitHub repository.
+</p>
 
 ---
 
@@ -103,41 +111,41 @@ CareChat follows a Hybrid RAG pipeline.
              🔍 Query Processing
                     |
                     ▼
-              Hybrid Retrieval
-              /             \
-             ▼               ▼
-        FAISS Search      BM25 Search
-             \               /
-              \             /
+               Hybrid Retrieval
+               /             \
+              ▼               ▼
+         FAISS Search      BM25 Search
+              \               /
+               \             /
                     ▼
            🔄 Reciprocal Rank Fusion
                     |
                     ▼
-             🎯 Cross-Encoder
-                Reranking
+              🎯 Cross-Encoder
+                 Reranking
                     |
                     ▼
-               🛑 Refusal Check
+                🛑 Refusal Check
                     |
-             ┌──────┴──────┐
-             ▼             ▼
-          Refuse       Use Retrieved
-          Answer         Passages
+              ┌─────┴──────┐
+              ▼            ▼
+           Refuse      Use Retrieved
+           Answer        Passages
                             |
                             ▼
-                      🤖 Qwen2.5
+                       🤖 Qwen2.5
                             |
                             ▼
                     📝 Answer Generation
                             |
                             ▼
-                    📚 Source Citations
+                     📚 Source Citations
                             |
                             ▼
-                    ⚖️ Safety Disclaimer
+                     ⚖️ Safety Disclaimer
                             |
                             ▼
-                       Final Answer
+                        Final Answer
 ```
 
 ### 🔧 Technology Stack
@@ -258,7 +266,7 @@ Metrics:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CareChat-Medical-RAG.git
+git clone https://github.com/sabakhalil806-collab/CareChat-Medical-RAG.git
 ```
 
 ### 2️⃣ Enter the Project Directory
@@ -341,6 +349,9 @@ CareChat-Medical-RAG/
 ├── ⚙️ config.json
 ├── 🗂️ faiss.index
 │
+├── 📁 demo/
+│   └── 🎬 CareChat Video Demo.mp4
+│
 ├── 📁 notebooks/
 │   └── medical-rag-chatbot.ipynb
 │
@@ -397,7 +408,7 @@ CareChat uses public health information from:
 
 ## ⚖️ Medical Disclaimer
 
-**CareChat is an educational student thesis project. It is not a medical device and does not provide medical diagnosis, treatment, or professional medical advice.**
+**CareChat is an educational student project. It is not a medical device and does not provide medical diagnosis, treatment, or professional medical advice.**
 
 - Do not use it to make medical decisions.
 - Always consult a qualified healthcare professional about health concerns.
@@ -412,7 +423,7 @@ CareChat uses public health information from:
 |---|---|
 | 👤 Author | Saba Khalil |
 | 🎓 Degree | MS AI |
-| 🏛️ University | NUTECH , Islamabad , Pakistan|
+| 🏛️ University | NUTECH, Islamabad, Pakistan |
 | 📚 Project | CareChat – Medical RAG Chatbot |
 | 💻 GitHub | [sabakhalil806-collab](https://github.com/sabakhalil806-collab) |
 | 📧 Email | sabakhalil806@gmail.com |
