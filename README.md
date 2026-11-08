@@ -251,10 +251,6 @@ Metrics:
 - LLM-judge faithfulness evaluation.
 - Qwen2.5 model comparison.
 
-📁 **Full evaluation:** See the Kaggle notebook and CSV files in the `results/` folder.
-
-*Replace TBD with your verified results. No performance values are assumed here.*
-
 ---
 
 ## 💻 Installation
@@ -414,12 +410,12 @@ CareChat uses public health information from:
 
 | Detail | Information |
 |---|---|
-| 👤 Author | YOUR NAME |
-| 🎓 Degree | YOUR DEGREE |
-| 🏛️ University | YOUR UNIVERSITY |
+| 👤 Author | Saba Khalil |
+| 🎓 Degree | MS AI |
+| 🏛️ University | NUTECH , Islamabad , Pakistan|
 | 📚 Project | CareChat – Medical RAG Chatbot |
-| 💻 GitHub | [YOUR_USERNAME](https://github.com/YOUR_USERNAME) |
-| 📧 Email | YOUR_EMAIL |
+| 💻 GitHub | [sabakhalil806-collab](https://github.com/sabakhalil806-collab) |
+| 📧 Email | sabakhalil806@gmail.com |
 
 ---
 
