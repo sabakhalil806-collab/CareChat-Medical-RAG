@@ -1,8 +1,28 @@
-gradio
-sentence-transformers
-faiss-cpu
-rank_bm25
-numpy
-huggingface_hub
-transformers
+# Core Backend
+fastapi
+uvicorn[standard]
+pydantic
+
+# Machine Learning and NLP
 torch
+transformers
+sentence-transformers
+sentencepiece
+accelerate
+
+# Retrieval and Vector Search
+faiss-cpu
+rank-bm25
+
+# Data Processing
+numpy
+pandas
+scikit-learn
+
+# Configuration and Utilities
+requests
+beautifulsoup4
+lxml
+
+# API and Data Handling
+python-multipart
