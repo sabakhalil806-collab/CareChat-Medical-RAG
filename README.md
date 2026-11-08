@@ -55,7 +55,7 @@ Unlike a general chatbot, CareChat is designed to generate answers from retrieve
   ![Chat Interface](screenshots/chat2.png)
 
   ### 📚 Answers with Sources
-  ![Source Citations](screenshots/chat3.png)
+  ![Source Citations](screenshots/Chat3.png)
 
 </details>
 
