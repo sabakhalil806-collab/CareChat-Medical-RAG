@@ -1,0 +1,4 @@
+LLM,questions,answered %,faithfulness,SUPPORTED,PARTIAL,UNSUPPORTED,avg sec/answer
+Qwen2.5-1.5B-Instruct,63,100.0,0.825,44,16,3,6.3
+Qwen2.5-3B-Instruct,63,96.8,0.918,52,8,1,7.1
+Qwen2.5-7B-Instruct,63,100.0,0.937,55,8,0,8.4
