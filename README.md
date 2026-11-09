@@ -272,6 +272,25 @@ The project evaluation includes:
 - LLM-judge faithfulness evaluation.
 - Qwen2.5 model comparison.
 
+### 📈 Visual Results
+
+#### Retrieval Performance
+
+![Retrieval MRR](results/charts/retrieval_mrr_comparison.png)
+
+![Retrieval Hit@3](results/charts/retrieval_hit_at_3.png)
+
+#### Refusal Evaluation
+
+![Refusal Evaluation](results/charts/refusal_evaluation.png)
+
+#### LLM Comparison
+
+![LLM Faithfulness](results/charts/llm_faithfulness.png)
+
+![LLM Response Time](results/charts/llm_response_time.png)
+
+
 📁 **Detailed results:** See the Jupyter Notebook and CSV files in the `results/` folder.
 
 *Note: Results are based on the evaluation dataset and methods used in this project.*
