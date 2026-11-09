@@ -282,13 +282,13 @@ The project evaluation includes:
 
 #### Refusal Evaluation
 
-![Refusal Evaluation](results/charts/refusal_evaluation.png)
+![Refusal Evaluation](results/refusal_evaluation.png)
 
 #### LLM Comparison
 
-![LLM Faithfulness](results/charts/llm_faithfulness.png)
+![LLM Faithfulness](results/llm_faithfulness.png)
 
-![LLM Response Time](results/charts/llm_response_time.png)
+![LLM Response Time](results/llm_response_time.png)
 
 
 📁 **Detailed results:** See the Jupyter Notebook and CSV files in the `results/` folder.
