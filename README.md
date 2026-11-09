@@ -276,9 +276,9 @@ The project evaluation includes:
 
 #### Retrieval Performance
 
-![Retrieval MRR](results/charts/retrieval_mrr_comparison.png)
+![Retrieval MRR](results/retrieval_mrr_comparison.png)
 
-![Retrieval Hit@3](results/charts/retrieval_hit_at_3.png)
+![Retrieval Hit@3](results/retrieval_hit_at_3.png)
 
 #### Refusal Evaluation
 
