@@ -361,12 +361,10 @@ CareChat-Medical-RAG/
 │   └── results_llm.csv
 │
 ├── 📁 screenshots/
-│   ├── chat1.png
-│   ├── chat2.png
-│   └── chat3.png
-│
-└── 📁 docs/
-    └── project-notes.md
+    ├── chat1.png
+    ├── chat2.png
+    └── chat3.png
+
 ```
 
 > ⚠️ Keep `app.py`, `carechat.py`, `index.html`, `chunks.json`, `config.json`, and `faiss.index` together in the same folder. The current application may depend on their relative file paths.
@@ -449,6 +447,5 @@ Special thanks to:
   <b>🩺 CareChat</b>
   <br />
   Making public health information easier to access through Retrieval-Augmented Generation.
-  <br /><br />
-  ⭐ If you find this project useful, consider giving the repository a star!
+  <br />
 </p>
