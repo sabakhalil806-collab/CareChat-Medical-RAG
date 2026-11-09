@@ -1,3 +1,4 @@
+gradio
 # Core Backend
 fastapi
 uvicorn[standard]
