@@ -14,7 +14,6 @@
 </p>
 
 <p align="center">
-  <a href="demo/CareChat%20Video%20Demo.mp4">▶️ Watch Demo</a> •
   <a href="#-features">Features</a> •
   <a href="#-system-architecture">Architecture</a> •
   <a href="#-installation">Installation</a>
@@ -41,15 +40,13 @@ Unlike a general chatbot, CareChat is designed to generate answers from retrieve
 ## 📸 Application Preview
 
 <p align="center">
-  <a href="demo/CareChat%20Video%20Demo.mp4">
-    <img src="screenshots/chat1.png" alt="CareChat Application Preview - Click to Watch Demo" width="85%" />
-  </a>
+  <img src="screenshots/chat1.png"
+       alt="CareChat Main Application Interface"
+       width="85%" />
 </p>
 
 <p align="center">
   <i>💬 CareChat main chat interface</i>
-  <br />
-  ▶️ Click the screenshot above to watch the complete project demonstration.
 </p>
 
 <details>
@@ -64,20 +61,6 @@ Unlike a general chatbot, CareChat is designed to generate answers from retrieve
   ![Source Citations](screenshots/chat3.png)
 
 </details>
-
----
-
-## 🎬 Project Demo
-
-<p align="center">
-  <a href="demo/CareChat%20Video%20Demo.mp4">
-    <img src="https://img.shields.io/badge/▶_WATCH_PROJECT_DEMO-Video-blue?style=for-the-badge&logo=github" />
-  </a>
-</p>
-
-<p align="center">
-  Click the button above or the application screenshot to watch the CareChat demonstration video hosted directly in this GitHub repository.
-</p>
 
 ---
 
@@ -111,12 +94,12 @@ CareChat follows a Hybrid RAG pipeline.
              🔍 Query Processing
                     |
                     ▼
-               Hybrid Retrieval
-               /             \
-              ▼               ▼
-         FAISS Search      BM25 Search
-              \               /
-               \             /
+                Hybrid Retrieval
+                /             \
+               ▼               ▼
+          FAISS Search      BM25 Search
+               \               /
+                \             /
                     ▼
            🔄 Reciprocal Rank Fusion
                     |
@@ -127,25 +110,25 @@ CareChat follows a Hybrid RAG pipeline.
                     ▼
                 🛑 Refusal Check
                     |
-              ┌─────┴──────┐
-              ▼            ▼
-           Refuse      Use Retrieved
-           Answer        Passages
+               ┌─────┴──────┐
+               ▼            ▼
+            Refuse      Use Retrieved
+            Answer        Passages
                             |
                             ▼
-                       🤖 Qwen2.5
+                        🤖 Qwen2.5
                             |
                             ▼
-                    📝 Answer Generation
+                     📝 Answer Generation
                             |
                             ▼
-                     📚 Source Citations
+                      📚 Source Citations
                             |
                             ▼
-                     ⚖️ Safety Disclaimer
+                      ⚖️ Safety Disclaimer
                             |
                             ▼
-                        Final Answer
+                         Final Answer
 ```
 
 ### 🔧 Technology Stack
@@ -214,6 +197,7 @@ Additional safety features:
 - ⚖️ Medical disclaimer with every answer.
 
 ---
+
 ## 📊 Evaluation and Results
 
 CareChat was evaluated using **63 questions**:
@@ -290,12 +274,9 @@ The project evaluation includes:
 
 ![LLM Response Time](results/llm_response_time.png)
 
-
 📁 **Detailed results:** See the Jupyter Notebook and CSV files in the `results/` folder.
 
 *Note: Results are based on the evaluation dataset and methods used in this project.*
-
-
 
 ---
 
@@ -387,9 +368,6 @@ CareChat-Medical-RAG/
 ├── ⚙️ config.json
 ├── 🗂️ faiss.index
 │
-├── 📁 demo/
-│   └── 🎬 CareChat Video Demo.mp4
-│
 ├── 📁 notebooks/
 │   └── medical-rag-chatbot.ipynb
 │
@@ -399,10 +377,9 @@ CareChat-Medical-RAG/
 │   └── results_llm.csv
 │
 ├── 📁 screenshots/
-    ├── chat1.png
-    ├── chat2.png
-    └── chat3.png
-
+│   ├── chat1.png
+│   ├── chat2.png
+│   └── chat3.png
 ```
 
 > ⚠️ Keep `app.py`, `carechat.py`, `index.html`, `chunks.json`, `config.json`, and `faiss.index` together in the same folder. The current application may depend on their relative file paths.
@@ -485,5 +462,4 @@ Special thanks to:
   <b>🩺 CareChat</b>
   <br />
   Making public health information easier to access through Retrieval-Augmented Generation.
-  <br />
 </p>
