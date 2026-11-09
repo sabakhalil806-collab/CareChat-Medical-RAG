@@ -214,50 +214,69 @@ Additional safety features:
 - ⚖️ Medical disclaimer with every answer.
 
 ---
-
 ## 📊 Evaluation and Results
 
-The evaluation uses 63 questions:
+CareChat was evaluated using **63 questions**:
 
 - ✍️ 33 hand-written questions.
 - 🤖 30 synthetic questions.
 
-### 🔍 Retrieval Evaluation
+### 🔍 1. Retrieval Evaluation
 
-Metrics:
+Retrieval performance was measured using:
 
-- Hit@3
-- Mean Reciprocal Rank (MRR)
+- **Hit@3:** Measures whether a relevant document appears in the top 3 retrieved results.
+- **MRR (Mean Reciprocal Rank):** Measures how highly the first relevant result is ranked.
 
-| Retrieval Method | Hit@3 | MRR |
-|---|---|---|
-| Dense Retrieval | TBD | TBD |
-| Hybrid Retrieval | TBD | TBD |
-| Hybrid + Reranking | TBD | TBD |
+The evaluation compares two embedding models and three retrieval methods.
 
-### 🛑 Refusal Evaluation
+| Embedding Model | Retriever | Hand Hit@3 | Hand MRR | Synthetic Hit@3 | Synthetic MRR |
+|---|---|---:|---:|---:|---:|
+| bge-small-en-v1.5 | Dense | 1.000 | 0.955 | 1.000 | 0.928 |
+| bge-small-en-v1.5 | Hybrid | 1.000 | 0.939 | 0.933 | 0.822 |
+| bge-small-en-v1.5 | Hybrid + Rerank | 1.000 | 0.985 | 0.967 | 0.844 |
+| bge-base-en-v1.5 | Dense | 1.000 | 0.970 | 0.967 | 0.911 |
+| bge-base-en-v1.5 | Hybrid | 1.000 | 0.904 | 0.933 | 0.806 |
+| bge-base-en-v1.5 | Hybrid + Rerank | 1.000 | 0.985 | 0.967 | 0.844 |
 
-| Evaluation | Result |
-|---|---|
-| Correct refusal | TBD |
-| Correct in-scope response | TBD |
+### 🛑 2. Refusal Evaluation
 
-### 🤖 Language Model Comparison
+The refusal evaluation measures how often the system correctly refuses out-of-scope questions and attempts to answer in-scope questions.
 
-| Model | Faithfulness | Average Response Time |
-|---|---|---|
-| Qwen2.5-1.5B | TBD | TBD |
-| Qwen2.5-3B | TBD | TBD |
-| Qwen2.5-7B (4-bit) | TBD | TBD |
+| Embedding Model | Out-of-Scope Correctly Refused | In-Scope Correctly Attempted |
+|---|---:|---:|
+| bge-small-en-v1.5 | 62.5% | 100% |
+| bge-base-en-v1.5 | 62.5% | 100% |
 
-### 🧪 Evaluation Methods
+### 🤖 3. Language Model Comparison
+
+Three Qwen2.5 Instruct models were evaluated using 63 questions.
+
+The evaluation considers answer coverage, faithfulness, answer support, and average response time.
+
+| Language Model | Questions | Answered (%) | Faithfulness | Supported | Partial | Unsupported | Avg. Sec/Answer |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Qwen2.5-1.5B-Instruct | 63 | 100% | 0.825 | 44 | 16 | 3 | 6.3 |
+| Qwen2.5-3B-Instruct | 63 | 96.8% | 0.918 | 52 | 8 | 1 | 7.1 |
+| Qwen2.5-7B-Instruct | 63 | 100% | 0.937 | 55 | 8 | 0 | 8.4 |
+
+### 🧪 4. Evaluation Methods
+
+The project evaluation includes:
 
 - Dense retrieval evaluation.
 - Hybrid retrieval evaluation.
 - Hybrid retrieval with reranking.
-- Refusal testing.
+- Out-of-scope refusal testing.
+- In-scope response testing.
 - LLM-judge faithfulness evaluation.
 - Qwen2.5 model comparison.
+
+📁 **Detailed results:** See the Jupyter Notebook and CSV files in the `results/` folder.
+
+*Note: Results are based on the evaluation dataset and methods used in this project.*
+
+
 
 ---
 
