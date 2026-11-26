@@ -428,33 +428,6 @@ CareChat uses public health information from:
 - Do not delay medical care because of chatbot responses.
 - For emergencies, contact your local emergency services immediately.
 
----
-
-## 👨‍💻 Author
-
-| Detail | Information |
-|---|---|
-| 👤 Author | Saba Khalil |
-| 🎓 Degree | MS AI |
-| 🏛️ University | NUTECH, Islamabad, Pakistan |
-| 📚 Project | CareChat – Medical RAG Chatbot |
-| 💻 GitHub | [sabakhalil806-collab](https://github.com/sabakhalil806-collab) |
-| 📧 Email | sabakhalil806@gmail.com |
-
----
-
-## 🙏 Acknowledgements
-
-Special thanks to:
-
-- 🏥 MedlinePlus
-- 🌍 World Health Organization
-- 🩺 National Health Service
-- 🤗 Hugging Face
-- ⚡ FAISS
-- 🤖 Qwen
-- 🚀 FastAPI
-- 🧠 Sentence Transformers
 
 ---
 
